@@ -6,5 +6,3 @@ script:
 - docker build -t ansi/feelflight-3-0-passenger:latest .
 - docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
 - docker push ansi/feelflight-3-0-passenger:latest
-env:
-  global:
