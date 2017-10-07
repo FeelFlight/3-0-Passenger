@@ -1,0 +1,12 @@
+    <html>
+      <body>
+        <h1>Passenger List</h1>
+        <ul>
+          {% for passenger in passengers: %}
+          <li>
+          {{passenger.firstname}} {{passenger.lastname}}
+          </li>
+          {% endfor %}
+        </ul>
+      </body>
+    </html>
