@@ -8,4 +8,4 @@ ADD passenger.py passenger.py
 
 EXPOSE 8030
 
-CMD python mcp.py
+CMD ["python","-u","mcp.py"]
